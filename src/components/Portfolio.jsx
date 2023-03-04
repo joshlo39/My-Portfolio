@@ -1,5 +1,5 @@
 import React from "react";
-import educationWebsite from "../assets/portfolio/Education_Website.jpg";
+import educationWebsite from "../assets/portfolio/Education_Website1.jpg";
 import simpleCalc from "../assets/portfolio/simple_calc.png";
 import javaPong from "../assets/portfolio/Java-Pong.png";
 import installNode from "../assets/portfolio/installNode.jpg";
@@ -58,7 +58,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 h-52 w-full"
               />
               <div className="flex items-center justify-center">
 
