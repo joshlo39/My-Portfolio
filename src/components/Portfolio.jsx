@@ -2,29 +2,33 @@ import React from "react";
 import educationWebsite from "../assets/portfolio/Education_Website1.jpg";
 import simpleCalc from "../assets/portfolio/simple_calc.png";
 import javaPong from "../assets/portfolio/Java-Pong.png";
-import installNode from "../assets/portfolio/installNode.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+
+
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: educationWebsite,
+      title: "Education Website",
       code: "https://github.com/joshlo39/Education-Website",
       demo: "https://pop-educationsite.netlify.app/"
     },
     {
       id: 2,
       src: simpleCalc,
+      title: "Simple Calculator",
       code: "https://github.com/joshlo39/Simple_Calc",
       demo: "https://simple-calc-bg.netlify.app",
     },
+    
     {
       id: 3,
       src: javaPong,
+      title: "Java Pong Game",
       code: "https://github.com/joshlo39/Java-Pong-Game",
     },
+    /*
     {
       id: 4,
       src: reactSmooth,
@@ -37,6 +41,7 @@ const Portfolio = () => {
       id: 6,
       src: reactWeather,
     },
+    */
   ];
 
   return (
@@ -53,14 +58,18 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src,code,demo}) => (
+          {portfolios.map(({ id, src,code,demo,title}) => (
             <div key={id} className="shadow-md shadow-blue-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105 h-44 w-full"
               />
+              <h1 className="text-lg flex items-center justify-center mt-2">{title} </h1>
+
               <div className="flex items-center justify-center">
+              
+
 
                 <a href={demo} target="_blank" rel="noreferrer">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-blue-500">
