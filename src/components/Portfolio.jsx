@@ -28,18 +28,6 @@ const Portfolio = () => {
       title: "Java Pong Game",
       code: "https://github.com/joshlo39/Java-Pong-Game",
     },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
-    },
   ];
 
   return (
