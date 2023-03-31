@@ -24,19 +24,7 @@ const Portfolio = () => {
       id: 3,
       src: javaPong,
       code: "https://github.com/joshlo39/Java-Pong-Game",
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
-    },
+    }
   ];
 
   return (
