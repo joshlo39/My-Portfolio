@@ -2,6 +2,7 @@ import React from "react";
 import educationWebsite from "../assets/portfolio/Education_Website1.jpg";
 import simpleCalc from "../assets/portfolio/simple_calc.png";
 import javaPong from "../assets/portfolio/Java-Pong.png";
+import pokedex from "../assets/portfolio/pokedex.png";
 
 
 
@@ -28,6 +29,11 @@ const Portfolio = () => {
       title: "Java Pong Game",
       code: "https://github.com/joshlo39/Java-Pong-Game",
     },
+    {
+      id: 4,
+      src: pokedex,
+      code: "https://github.com/joshlo39/Homemade-Pokedex",
+    }
   ];
 
   return (
