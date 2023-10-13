@@ -14,7 +14,6 @@ const About = () => {
             <p className=" text-xl mt-10">
                 Hello, my name is Joshua Lopes and I am a Computer Science student at Florida International University graduating in June 2024.
                 I have been programming for 3 years now and I have become interested in creating projects with real world applications. 
-                
             </p>
             
             <br />
