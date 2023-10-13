@@ -3,8 +3,7 @@ import Prof_pic from '../assets/Prof_pic.jpeg';
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
 import Typed from 'typed.js';
-import styles from './css/Home.module.css'
-import { useEffect ,useRef} from 'react';
+
 const Home = () => {
 
 
